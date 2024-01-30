@@ -17,6 +17,7 @@
 
 .titulo{
     font-size: 25px;
+    color: #000;
 }
 
 .boton-v{
@@ -68,7 +69,6 @@
 }
 
 .col-a{
-    /* background: greenyellow; */
     width: 60%;
     margin: auto;
     margin-bottom: 30px;
@@ -82,8 +82,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px ;
-    padding-bottom: 15px;
+   padding: 15px 15px;
 }
 
 .imgs-a{
@@ -91,16 +90,13 @@
     width: 100%;
 }
 
-.likes{
-    padding-top: 20px;
+.ico:hover{
+    background-color: rgb(156, 156, 156);
 }
 
-.text{
-    padding-bottom: 200px;
-}
-
-.text-u{
-    padding-bottom: 400px;
+.card{
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 span{
